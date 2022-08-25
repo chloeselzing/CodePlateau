@@ -1,0 +1,96 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+nav img{
+    width: 5em;
+    height: 1.8rem;
+}
+nav button{
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+}
+header{
+    background-image: url(/Images/img/images/bg.svg);
+    background-color: aliceblue;
+    height: 70vh;
+    font-size: larger;
+}
+.header{
+    margin: 0px 50px;
+    display: grid;
+    grid-template-columns:auto auto;
+    justify-content: space-between;
+}
+.header .p{
+    line-height: 25px;
+}
+.btn{
+    border: none;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    background-color:#F452C7;
+
+}
+.header img{
+    width: 40vw;
+    margin-top: 30px;
+}
+.one{
+display: grid;
+grid-template-columns: auto auto;
+justify-content: space-between;
+margin: 50px 100px;
+padding:5px 50px ;
+border: 1px solid rgb(214, 208, 208);
+
+}
+.one img{
+    width: 20vw;
+}
+.two{
+    text-align: center;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid rgb(214, 208, 208);
+    width: 30vw;
+    padding: 10px;
+    background-color:white;
+}
+footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    left: 0;
+    bottom: 0;
+    padding: 50px;
+    padding-top: 10px;
+    height: 200px;
+    color: white;
+    background-color:rgb(32, 56, 63);
+}
+footer .log{
+    width: 150px ; 
+}
+.fbox img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px;
+}
+.fbox{
+    display: flex;
+    margin-top: 10px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.list div div{
+    margin: 20px 20px;
+}

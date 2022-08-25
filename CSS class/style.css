@@ -1,0 +1,19 @@
+/* text-transform can be capitalize */
+/* 
+flex
+flex-direction:colum || row
+give it a class of flex container*/
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+.flex-container div{
+    
+    border: 2px solid black ;
+    margin: 10px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+
+}

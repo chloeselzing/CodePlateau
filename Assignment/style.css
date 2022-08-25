@@ -1,0 +1,45 @@
+*{
+    background-color: rgb(241, 239, 239);
+}
+#form{
+    margin: auto;
+    
+}
+h2{
+    text-align: center;
+}
+.two{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* height: 20%; */
+    /* width: 10%; */
+}
+span{
+    margin-left: -9%;
+}
+.two input{
+    width: 20%;
+    column-gap: 100px;
+    height: 60%;
+}
+.first{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2%;
+}
+.four{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2%;
+    column-width: 50%;
+}
+input{
+    margin-bottom: 2%;
+    width: 100%;
+    height: 6vh;
+}
+select{
+    width: 100%;
+    height: 7vh;
+
+}
